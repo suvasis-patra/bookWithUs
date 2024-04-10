@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .input_filed {
+    @apply p-2 outline-none focus:outline-none border-[1px] border-neutral-400 rounded-xl focus:bg-blue-200;
+  }
+  .input_label {
+    @apply py-2 text-lg font-semibold capitalize;
+  }
+}
